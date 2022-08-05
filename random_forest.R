@@ -80,3 +80,9 @@ plot_multi_way_importance(importance_frame,
                           y_measure = "node_purity_increase",
                           size_measure = "p_value",
                           no_of_labels = 5)
+
+plot_importance_ggpairs(importance_frame)
+
+plot_predict_interaction(forest, Boston, "rm", "lstat")
+
+
